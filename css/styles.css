@@ -114,11 +114,12 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--main-color);
-    padding: 32px 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
-.site-nav-item:not(:last-child) {
-    padding-right: 50px;
+.site-nav-item:not(:last-child), .nav-contact-item:not(:last-child)  {
+    margin-right: 50px;
 }
 
 .site-nav a:hover, .site-nav a:focus {
@@ -139,11 +140,8 @@ a.current {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--secondary-color);  
-    padding: 32px 0;
-}
-
-.nav-contact .nav-contact-item + .nav-contact-item {
-    margin-left: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .nav-contact a:focus, .nav-contact a:hover {
@@ -184,7 +182,6 @@ a.current {
     color: var(--white-color);
 
     background: var(--active-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-style: none;
 
@@ -194,6 +191,7 @@ a.current {
 .btn-main:hover, .btn-main:focus  {
     cursor: pointer;
     background-color: var(--bg-color-btn);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .section {
@@ -270,8 +268,6 @@ a.current {
 
     flex-basis: calc(100% / 4 - var(--card-set-gap));
     margin-left: var(--card-set-gap);
-
-
 
     background-color: var(--white-color);
     border: 1px;
@@ -377,10 +373,7 @@ img {
     padding: 6px 22px;
 
     color: var(--main-color);
-
-    
     background: var(--bg-light);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-style: none;
 }
@@ -389,6 +382,8 @@ img {
     cursor: pointer;
     background: var(--active-color);
     color:var(--white-color);
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .btn:not(:last-child) {
@@ -403,11 +398,15 @@ img {
     margin-top: calc(-1 * var(--card-set-gap));
 }
 
-.card-set > .card-item {
+.card-item {
     flex-basis: calc(100% / 3 - var(--card-set-gap));
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap);
-    outline: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.card-content {
+ padding: 24px 20px;
 }
 
 .item-title {
@@ -416,8 +415,6 @@ img {
     letter-spacing: 0.06em;
 
     color: var(--main-color);
-    padding-left: 24px;
-    padding-top: 20px;
 }
 
 .item-descr {
@@ -426,9 +423,6 @@ img {
     letter-spacing: 0.03em;
 
     color: var(--secondary-color);
-
-    padding-left: 24px;
-    padding-bottom: 20px;
 }
 
 
