@@ -139,11 +139,15 @@ a.current {
     padding-bottom: 32px; 
 }
 
+.nav-contact .nav-contact-item + .nav-contact-item {
+    margin-left: 50px;
+}
+
 .nav-contact a:focus, .nav-contact a:hover {
     color: var(--active-color);
 }
 
-.site-nav-item:not(:last-child), .nav-contact-item:not(:last-child) {
+.site-nav-item:not(:last-child) {
     padding-right: 50px;
 }
 
