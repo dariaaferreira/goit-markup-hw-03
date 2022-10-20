@@ -205,7 +205,7 @@ a.current {
   margin-right: calc(-1 * var(--card-set-gap));
 }
 
-.features-item {
+.features-items > .features-item {
     flex-basis: calc(100% / 4 - var(--card-set-gap));
     margin-right: var(--card-set-gap);
 }
@@ -258,13 +258,13 @@ a.current {
     background: var(--bg-light);
 }
 
-.team-cards{
+.team-cards {
     display: flex;
     flex-wrap: wrap;
     margin-left: calc(-1 * var(--card-set-gap));
 }
 
-.team-card {
+.team-cards > .team-card {
 
     flex-basis: calc(100% / 4 - var(--card-set-gap));
     margin-left: var(--card-set-gap);
@@ -398,7 +398,7 @@ img {
     margin-top: calc(-1 * var(--card-set-gap));
 }
 
-.card-item {
+.card-set > .card-item {
     flex-basis: calc(100% / 3 - var(--card-set-gap));
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap);
