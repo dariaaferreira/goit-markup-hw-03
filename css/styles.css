@@ -86,6 +86,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .logo {
+    display: block;
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
@@ -115,8 +116,8 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--main-color);
- /* padding-top: 32px;
-    padding-bottom: 32px;*/
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .site-nav-item:not(:last-child) {
@@ -142,8 +143,8 @@ a.current {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--secondary-color);  
-/*  padding-top: 32px;
-    padding-bottom: 32px; */
+    padding-top: 32px;
+    padding-bottom: 32px; 
 }
 
 .nav-contact .nav-contact-item + .nav-contact-item {
