@@ -77,10 +77,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 .header-page .container {
     display: flex;
+    align-items: center;
 }
 
 .nav-items {
     display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -103,6 +105,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .site-nav {
     display: flex;
+    align-items: center;
     margin-left: 93px;
 }
 
@@ -112,8 +115,8 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--main-color);
-    padding-top: 32px;
-    padding-bottom: 32px;
+ /* padding-top: 32px;
+    padding-bottom: 32px;*/
 }
 
 .site-nav-item:not(:last-child) {
@@ -139,8 +142,8 @@ a.current {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--secondary-color);  
-    padding-top: 32px;
-    padding-bottom: 32px; 
+/*  padding-top: 32px;
+    padding-bottom: 32px; */
 }
 
 .nav-contact .nav-contact-item + .nav-contact-item {
