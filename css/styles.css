@@ -264,7 +264,7 @@ a.current {
     margin-left: calc(-1 * var(--card-set-gap));
 }
 
-.team-cards > .team-card {
+.team-card {
 
     flex-basis: calc(100% / 4 - var(--card-set-gap));
     margin-left: var(--card-set-gap);
