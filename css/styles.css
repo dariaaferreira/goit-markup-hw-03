@@ -116,6 +116,10 @@ h1, h2, h3, h4, h5, h6, p {
     padding-bottom: 32px;
 }
 
+.site-nav-item:not(:last-child) {
+    padding-right: 50px;
+}
+
 .site-nav a:hover, .site-nav a:focus {
     color: var(--active-color);
 }
@@ -145,10 +149,6 @@ a.current {
 
 .nav-contact a:focus, .nav-contact a:hover {
     color: var(--active-color);
-}
-
-.site-nav-item:not(:last-child) {
-    padding-right: 50px;
 }
 
 
