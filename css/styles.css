@@ -403,6 +403,8 @@ img {
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap);
     border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
 
 .card-content {
